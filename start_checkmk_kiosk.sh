@@ -20,7 +20,6 @@ STARTUP_DELAY=15
 FIREFOX_PROFILE_OPTION=""
 
 # === Script Logic ===
-
 # Construct the Checkmk Login URL
 # Note: The URL encodes the target dashboard URL within the _origtarget parameter.
 TARGET_DASHBOARD_URL="/${CHECKMK_SITENAME}/check_mk/dashboard.py?name=${CHECKMK_DASHBOARD}"
