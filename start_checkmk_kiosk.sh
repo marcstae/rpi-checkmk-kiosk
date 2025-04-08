@@ -14,7 +14,7 @@ KIOSK_PASSWORD="SimplePassword123"                # Replace with the password fo
 
 # --- Raspberry Pi Display & Browser Settings ---
 # Delay in seconds before launching Firefox (allows desktop/network to initialize)
-STARTUP_DELAY=30
+STARTUP_DELAY=15
 # Optional: Specify a specific Firefox profile if needed
 # FIREFOX_PROFILE_OPTION="--profile /path/to/your/profile"
 FIREFOX_PROFILE_OPTION=""
