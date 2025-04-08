@@ -25,6 +25,7 @@ FIREFOX_PROFILE_OPTION=""
 # Note: The URL encodes the target dashboard URL within the _origtarget parameter.
 TARGET_DASHBOARD_URL="/${CHECKMK_SITENAME}/check_mk/dashboard.py?name=${CHECKMK_DASHBOARD}"
 LOGIN_URL="https://${CHECKMK_HOSTNAME}/${CHECKMK_SITENAME}/check_mk/login.py?_origtarget=${TARGET_DASHBOARD_URL}&_username=${KIOSK_USERNAME}&_password=${KIOSK_PASSWORD}&_login=1"
+#LOGIN_URL="https://time.is" # For testing purposes
 
 echo "$(date): Waiting ${STARTUP_DELAY} seconds before launching Checkmk Kiosk..."
 sleep ${STARTUP_DELAY}
