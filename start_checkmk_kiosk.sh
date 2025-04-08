@@ -37,7 +37,7 @@ echo "URL: ${LOGIN_URL}" # Displaying URL for debugging (remove if sensitive)
 export DISPLAY=:0
 
 # Kill any existing Firefox instances to ensure a clean start (optional, use with caution)
-# pkill -f firefox
+pkill -f firefox
 
 # Launch Firefox in Kiosk Mode
 # --kiosk: Standard kiosk mode
